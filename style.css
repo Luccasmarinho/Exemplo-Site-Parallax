@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.conteudo-marcozero {
+    background-image: url('img/recife\ marzo-zero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.conteudo-marcozero h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 400px;
+    background-color: #585858;
+    color: white;
+    padding: 18px 8px;
+    font-weight:normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 95px 0;
+    background-color: #282E34;
+    
+
+}
+
+.section h3 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.section p {
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.three-text {
+    background-image: url('img/recife\ praia.webp');
+}
+
+.two-text {
+    background-image: url('img/recife\ veneza.jpg');
+}
+
+
+.image {
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    font-weight: normal;
+    background-color: #585858;
+    padding: 18px 8px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 95px 0;
+    background-color: #F4F4F4;
+}
+
+.section-one h3 {
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #282E34;
+}
+
+.section-one p {
+    width: 80%;
+    text-align: center;
+    color: #282E34;
+}
+
+.secao-criador {
+    background-color: #585858;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.secao-criador p {
+    margin-top: 15px;
+    
+}
+
+.secao-criador p::after {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.231);
+    position: absolute;
+    right: 10px;
+    top: 24px;
+    
+}
+.secao-criador p::before {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.231);
+    position: absolute;
+    left: 10px;
+    top: 24px;
+    
+}
+
